@@ -1,0 +1,73 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,200&display=swap');
+
+/* shere style */
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+  
+}
+header {
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 240px;
+}
+
+.nav-title {
+  color: #131313;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav>ul {
+  display: flex;
+
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+
+}
+
+/* banner */
+.banner-content {
+  font-weight: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-description{
+  width: 868px;
+  text-align: center;
+  margin: 0 auto;
+  color: #727272;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+  color:#131313 ;
+}
+
+
+.banner-img {
+  width: 100%;
+}
