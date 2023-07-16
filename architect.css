@@ -1,4 +1,4 @@
-/* work sans font */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,200&display=swap');
 
 /* shere style */
@@ -6,19 +6,26 @@
   font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-  
+  border-radius: 8px;
+  color: #fff;
+  background: #FF900E;
+  padding: 20px 25px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 10px;
 }
 header {
   background: rgba(255, 144, 14, 0.10);
   padding: 50px 240px;
+ 
 }
 
 .nav-title {
   color: #131313;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 2.8rem;
+  font-weight: 700; 
 }
 
 nav {
@@ -28,7 +35,7 @@ nav {
 
 }
 
-nav>ul {
+nav > ul {
   display: flex;
 
 }
@@ -38,7 +45,7 @@ nav li {
   margin-right: 30px;
   text-align: center;
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
 }
@@ -50,24 +57,90 @@ nav li a {
 }
 
 /* banner */
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .banner-content {
   font-weight: 800px;
   text-align: center;
   margin: 0 auto;
-}
-.banner-description{
-  width: 868px;
+  margin: 0px 250px ;
+  width: 80%;
   text-align: center;
-  margin: 0 auto;
-  color: #727272;
 }
+
 .banner-title{
   font-size: 4rem;
   font-weight: 700;
   color:#131313 ;
+  margin: 0 auto;
+  align-items: center;
+  
 }
-
+.banner-description{
+  color: #727272;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 10px;
+  
+}
 
 .banner-img {
   width: 100%;
 }
+
+.banner-img img {
+  width: 100%;
+}
+
+/* media screen */
+@media screen and (max-width:576px) {
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+}
+
+<!-- <style>
+
+  .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-content{
+    width: 80%;
+    text-align: center;
+  }
+  .banner-img{
+    width: 80%;
+  }
+  .banner-img img {
+    width: 100%;
+  }
+
+  
+
+  /* .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-content{
+    width: 80%;
+    text-align: center;
+  }
+  .banner-img{
+    width: 80%;
+  }
+  .banner-img img {
+    width: 100%;
+  } */
+
